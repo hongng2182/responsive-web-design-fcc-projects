@@ -1,0 +1,54 @@
+body{
+    background-color: #256D85;
+    font-family: Trebuchet MS;
+  }
+  
+  #title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: #F7F6DC;
+  }
+  #description{
+    font-size: 15px;
+    text-align: center;
+    color: #F7F6DC;
+  }
+  
+  main{  
+    background-color: rgb(43, 72, 101, 0.9);
+    width: 500px;
+    margin: auto;
+    color: #F7F6DC;
+    border-radius: 4px;
+  }
+  #survey-form{
+    padding: 30px 50px 30px 50px ;
+  }
+  
+  #name, #email,#number,#dropdown{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-family: Trebuchet MS;
+  }
+   input[type=radio], input[type=checkbox]{
+     margin-bottom: 10px;
+   }
+  
+  #textarea{
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    font-family: Trebuchet MS;
+    padding-left: 12px;
+  }
+  #submit{
+    cursor: pointer;
+    width: 100%;
+    background-color: #7FB77E;
+    color: #F7F6DC;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
